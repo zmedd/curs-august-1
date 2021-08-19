@@ -1,4 +1,5 @@
 /* START RESET */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 * {
   /* * = all elements */
   box-sizing: border-box;
@@ -22,6 +23,7 @@ input:focus {
 }
 
 html {
+  font-family: "Roboto", sans-serif;
   font-size: 10px;
 }
 
@@ -36,3 +38,29 @@ rem - 1rem = font-size definit pe el HTML
 */
 
 /* END RESET */
+
+.button {
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  padding: 1em 1.5em;
+  background-color: #25ced1;
+  min-width: 24rem;
+  font-weight: 500;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: 2px solid #25ced1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #25ced1;
+}
+
+/* 
+margin, padding, width, height NU functioneaza
+pe elemente inline
+*/
