@@ -68,3 +68,37 @@ pe elemente inline
 div {
   display: block;
 }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+/*
+responsive @media (max-width: valoare)
+<= 1024px - tablet
+< 767px - mobile
+
+mobile @media (min-width: valoare)
+>= 768px - tablet
+>= 1025px - desktop
+*/
