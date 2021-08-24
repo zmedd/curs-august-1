@@ -1,0 +1,66 @@
+/* START RESET */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+* {
+  /* * = all elements */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus {
+  box-shadow: unset;
+  outline: unset;
+  border: unset;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+/* 
+px - unitate fixa. 1px = 1LED din monitor
+% - 1% din parintele direct
+vh - 1vh este 1% din viewport height
+vw - 1vw este 1% din viewport width
+em - 1em = font-size in px a celui mai apropiat
+    parinte care are font-size definit
+rem - 1rem = font-size definit pe el HTML
+*/
+
+/* END RESET */
+
+.button {
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  padding: 1em 1.5em;
+  background-color: #25ced1;
+  min-width: 24rem;
+  font-weight: 500;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: 2px solid #25ced1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #25ced1;
+}
+
+/* 
+margin, padding, width, height NU functioneaza
+pe elemente inline
+*/
