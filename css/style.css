@@ -64,3 +64,7 @@ rem - 1rem = font-size definit pe el HTML
 margin, padding, width, height NU functioneaza
 pe elemente inline
 */
+
+div {
+  display: block;
+}
